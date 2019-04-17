@@ -7,14 +7,10 @@ services:
       - "5000:5001"
     depends_on:
     - friendservice
-    volumes:
-    - .:/code
     networks:
     - mynet
   friendservice:
     build: ./rest-bookstore
-    volumes:
-    - ./rest-bookstore/rest:/rest
     ports:
     - 80:5000
     networks:
