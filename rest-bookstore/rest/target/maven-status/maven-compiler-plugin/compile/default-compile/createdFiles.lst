@@ -1,0 +1,5 @@
+bookstore\Book.class
+bookstore\BookAccess.class
+bookstore\BookController.class
+bookstore\Application.class
+bookstore\Response.class
