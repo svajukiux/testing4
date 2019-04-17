@@ -14,7 +14,7 @@ services:
   friendservice:
     build: ./rest-bookstore
     volumes:
-    - ./rest-bookstore:/rest
+    - ./rest-bookstore/rest:/rest
     ports:
     - 5000:5001
     networks:
