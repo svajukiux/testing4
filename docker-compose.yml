@@ -16,7 +16,7 @@ services:
     volumes:
     - ./rest-bookstore/rest:/rest
     ports:
-    - 5000:5001
+    - 80:5000
     networks:
     - mynet
     
